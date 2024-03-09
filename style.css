@@ -268,6 +268,7 @@ header.sticky {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 10px;
+    color: var(--main-color);
 }
 
 .box p {
@@ -377,22 +378,6 @@ header.sticky {
 
 }
 
-/* .NameEmail, .message{
-    font-size: 18px;
-    padding: 5px 20px;
-    border: none;
-    border-radius: 5px;
-    margin-top: 40px;
-    border: 2px solid var(--main-color);
-    background-color: var(--second-bg-color);
-    outline: none;
-    color: var(--p-font);
-    width: 600px;
-    height: 35px;
-    
-
-} */
-
 form {
     position: relative;
     width: 600px;
@@ -464,4 +449,7 @@ footer p {
     color: var(--main-color);
     box-shadow: 0 0 20px var(--main-color);
     scale: .9;
+}
+.bootstrap{
+    background-color: #13bbff;
 }
