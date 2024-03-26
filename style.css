@@ -182,7 +182,7 @@ section {
 
 header.sticky {
     background: var(--bg-color);
-    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2); /*for below shadow in navigation bar */
     padding: 16px 16%;
 }
 
@@ -259,9 +259,10 @@ header.sticky {
 }
 
 .box img {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     margin-bottom: 20px;
+    background: transparent;;
 }
 
 .box h3 {
@@ -416,7 +417,7 @@ form {
 }
 
 footer {
-    padding: 22px 16%;
+    padding: 20px 16%;
     display: flex;
     background: var(--second-bg-color);
     justify-content: space-between;
@@ -425,8 +426,8 @@ footer {
 }
 
 footer p {
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 300;
     color: var(--other-color);
 }
 
@@ -435,8 +436,8 @@ footer p {
     align-items: center;
     justify-content: center;
     background: var(--main-color);
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     color: var(--bg-color);
     font-size: 49px;
